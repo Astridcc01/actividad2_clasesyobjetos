@@ -1,6 +1,7 @@
 public class Cliente{
     public static void main(String args[]){
-        Nombre nombre = new Nombre();
+        
+        Cliente cliente = new Cliente();
         cliente.setNombre("Indra");
         cliente.setCiudad("Madrid");
         cliente.setPresupuesto("10.000");
@@ -8,18 +9,15 @@ public class Cliente{
         System.out.println(cliente.getNombre());
         System.out.println(cliente.getCiudad());
         System.out.println(cliente.getPresupuesto());
-    }
-}
-
-public class Cliente2{
-    public static void main(String args[]){
-        Nombre nombre = new Nombre();
-        cliente.setNombre("Vass");
-        cliente.setCiudad("Valencia");
-        cliente.setPresupuesto("12.000");
         
-        System.out.println(cliente.getNombre());
-        System.out.println(cliente.getCiudad());
-        System.out.println(cliente.getPresupuesto());
+        
+        Cliente cliente = new Cliente();
+        cliente2.setNombre("Vass");
+        cliente2.setCiudad("Valencia");
+        cliente2.setPresupuesto("12.000");
+        
+        System.out.println(cliente2.getNombre());
+        System.out.println(cliente2.getCiudad());
+        System.out.println(cliente2.getPresupuesto());
     }
 }
