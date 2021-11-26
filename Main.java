@@ -3,7 +3,7 @@ public class Cliente{
         Nombre nombre = new Nombre();
         cliente.setNombre("Indra");
         cliente.setCiudad("Madrid");
-        cliente.setPresupuesto("10000");
+        cliente.setPresupuesto("10.000");
         
         System.out.println(cliente.getNombre());
         System.out.println(cliente.getCiudad());
@@ -14,9 +14,9 @@ public class Cliente{
 public class Cliente2{
     public static void main(String args[]){
         Nombre nombre = new Nombre();
-        cliente.setNombre("Indra");
-        cliente.setCiudad("Madrid");
-        cliente.setPresupuesto("10000");
+        cliente.setNombre("Vass");
+        cliente.setCiudad("Valencia");
+        cliente.setPresupuesto("12.000");
         
         System.out.println(cliente.getNombre());
         System.out.println(cliente.getCiudad());
