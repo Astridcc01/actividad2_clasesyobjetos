@@ -1,0 +1,11 @@
+public class Main{
+    public static void main(String[] args){
+    Cliente cliente1=new Cliente("indra","madrid",10000);//insert
+    Cliente cliente2=new Cliente("vass","sevilla",12000);
+    cliente1.setNombre("repsol");//update
+    cliente1.setCiudad("valencia");
+    System.out.println(cliente1.getCiudad());//read
+    cliente1.verFicha();
+    cliente2.verFicha();
+    }
+}//cierra clase Main
