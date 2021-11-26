@@ -2,9 +2,8 @@ public class Cliente{
     String nombre;
     String ciudad;
     int presupuesto;
-}
-
-        public String getNombre()
+    
+    public String getNombre()
         {
                 return nombre;
         }
@@ -30,3 +29,5 @@ public class Cliente{
         {
                 this.presupuesto = presupuesto;
         }
+
+}
